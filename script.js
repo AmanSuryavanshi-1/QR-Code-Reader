@@ -7,7 +7,7 @@ closeBtn = wrapper.querySelector(".close");
 
 
 function fetchRequest(formData, file){
-    infoText.innerText = "Scanner QR Code...";
+    infoText.innerText = "Scanning QR Code...";
 
     fetch("http://api.qrserver.com/v1/read-qr-code/",{
          //sending POST request to qr server api with passing
